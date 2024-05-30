@@ -71,7 +71,7 @@ public class ApplePieRecipe {
 
     public void printStappen() {
 
-        System.out.println(new ApplePieRecipe().verwarm().klop().meng().schil().vet().deeg().meng2().rol().zet().leg());    }
+        System.out.println(this.verwarm().klop().meng().schil().vet().deeg().meng2().rol().zet().leg());    }
 
     public void printIngredients(){
 System.out.println(roomboter.getAmount() + " " + roomboter.getUnit() + " " + roomboter.getName());
